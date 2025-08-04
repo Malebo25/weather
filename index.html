@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
@@ -33,7 +33,7 @@
            
         </div>
         <div>
-            <p id="description"> <span id="descriptionIcon">🌧</span> <span id="weatherDescription"></span> </p>
+            <p id="description"> <span id="descriptionIcon"> <img class="icon" src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" alt="" width="35"></span> <span id="weatherDescription" >overcast</span> </p>
         </div>
         <div id="wind-humidity">
             <div id="humidity">
@@ -64,37 +64,51 @@
         </div>
         
         <div id="forecast-container">
-            <div id="forecast">
-                <div id="day">thur</div>
+             <div id="forecast">
+                <div id="day">Mon</div>
                 <div id="forecastIcon">🌧</div>
-                <div id="forecastTemperature">21</div>
-
+                <div id="temperatures">
+                    <div id="forecastTemperature"><strong>21°</strong></div>
+                     <div id="forecastTemperature">21°</div>
+                </div>
+                
             </div>
             <div id="forecast">
-                <div id="day">fri</div>
+                <div id="day">Tue</div>
                 <div id="forecastIcon">🌧</div>
-                <div id="forecastTemperature">21</div>
-
+                <div id="temperatures">
+                    <div id="forecastTemperature"><strong>21°</strong></div>
+                     <div id="forecastTemperature">21°</div>
+                </div>
+                
             </div>
             <div id="forecast">
-                <div id="day">sat</div>
+                <div id="day">Wed</div>
                 <div id="forecastIcon">🌧</div>
-                <div id="forecastTemperature">21</div>
-
+                <div id="temperatures">
+                    <div id="forecastTemperature"><strong>21°</strong></div>
+                     <div id="forecastTemperature">21°</div> 
+                 </div>
+                
             </div>
 
-            <div id="forecast">
-                <div class="day" id="day">sun</div>
+             <div id="forecast">
+                <div id="day">Thu</div>
                 <div id="forecastIcon">🌧</div>
-                <div id="forecastTemperature">21</div>
-
+                <div id="temperatures">
+                    <div id="forecastTemperature"><strong>21°</strong></div>
+                     <div id="forecastTemperature">21°</div>
+                </div>
+                
             </div>
-
             <div id="forecast">
-                <div class="day" id="day">sun</div>
+                <div id="day">Fri</div>
                 <div id="forecastIcon">🌧</div>
-                <div id="forecastTemperature">21</div>
-
+                <div id="temperatures">
+                    <div id="forecastTemperature"><strong>21°</strong></div>
+                     <div id="forecastTemperature">21°</div>
+                </div>
+                
             </div>
 
 
@@ -116,6 +130,6 @@
 
     </div>
     
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
