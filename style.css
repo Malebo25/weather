@@ -77,7 +77,9 @@ header{
    
     
 }
-
+strong{
+    color:#E8A716
+}
 #humidity{
     display: flex;
     justify-content: space-between;
